@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.header a img[alt="logo"]:hover {
+    background-color: #c7c7c7;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.header a img[alt="logo"]:active {
+    box-shadow: none;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.menu-link:active {
+    box-shadow: none;
+    /*color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;*/
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.button:hover {
+    background-color: #c7c7c7;
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main-1 {
+    margin-top: 120px;
+}
+
+.main-1-link {
+    width: 158px;
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 31px;
+}
+
+.explore {
+    color: #212121;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+}
+
+.explore:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.main-1-link:hover {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.main-1-link:active,
+.explore:active {
+    box-shadow: none;
+}
+
+.product {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product li {
+    list-style-type: none;
+}
+
+.small-picture img {
+    width: 270px;
+    height: 270px;
+}
+
+.small-picture img:hover {
+    outline: 1px solid #d5d1d0;
+}
+
+.small-picture img:active {
+    outline: none;
+}
+
+.exclusive-1 {
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img1.jpg);
+    overflow: hidden;
+}
+
+.exclusive-2 {
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img.jpg);
+    overflow: hidden;
+}
+
+.exclusive-text {
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.exclusive-ex {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.exclusive-h3 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.exclusive-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 374px;
+    height: 36px;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+
+
