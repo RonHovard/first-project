@@ -6,6 +6,34 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <style>
+        HTML {
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            /* Mobile layout by default */
+            background-image: url("img/slider-img.jpg");
+        }
+
+        /* Tablet */
+        @media (min-width: 760px) {
+            HTML {
+                /* Tablet layout */
+                background-image: url("img/slider-img.jpg");
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 960px) {
+            HTML {
+                /* Desktop layout */
+                background-image: url("img/interior-home-page-%E2%80%94-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png");
+            }
+        }
+
+    </style>
+    <link rel="stylesheet" href="node_modules/pixel-glass/styles.css">
+    <script src="node_modules/pixel-glass/script.js"></script>
 </head>
 
 <body>
@@ -35,12 +63,12 @@
         <div class="main-1 padding-site">
             <a class="main-1-link" href="#">Featured</a>
             <a class="main-1-link" href="#">New</a>
-            <a class="explore" href="#">explore all ></a>
+            <a class="explore" href="#">explore all <img src="img/arrow.svg" alt="arrow"></a>
             <ul class="product">
-                <li><a  href="#"><img src="img/product-4.jpg" class="product-picture" alt="product-1"></a></li>
-                <li><a  href="#"><img src="img/product-2.jpg" class="product-picture" alt="product-2"></a></li>
-                <li><a  href="#"><img src="img/product-3.jpg" class="product-picture" alt="product-3"></a></li>
-                <li><a  href="#"><img src="img/product-4.jpg" class="product-picture" alt="product-4"></a></li>
+                <li><a href="#"><img src="img/product-4.jpg" class="product-picture" alt="product-1"></a></li>
+                <li><a href="#"><img src="img/product-2.jpg" class="product-picture" alt="product-2"></a></li>
+                <li><a href="#"><img src="img/product-3.jpg" class="product-picture" alt="product-3"></a></li>
+                <li><a href="#"><img src="img/product-4.jpg" class="product-picture" alt="product-4"></a></li>
             </ul>
         </div>
         <div class="exclusive-1">
@@ -62,7 +90,7 @@
         <div class="trending padding-site">
             <a href="#" class="trending-links">Trending</a>
             <a href="#" class="trending-links">Products</a>
-            <a href="#" class="explore" >explore all ></a>
+            <a href="#" class="explore">explore all <img src="img/arrow.svg" alt="arrow"></a>
             <ul class="trending-products">
                 <li><a href="#"><img src="img/product-11.jpg" alt="product-11" class="trending-products-image"></a></li>
                 <li><a href="#"><img src="img/product-21.jpg" alt="product-21" class="trending-products-image"></a></li>
@@ -95,14 +123,62 @@
                 </div>
             </div>
             <ul class="product-1">
-                    <li><a  href="#"><img src="img/product-2-sm.jpg" class="product-picture" alt="product-1"></a></li>
-                    <li><a  href="#"><img src="img/product-3-sm.jpg" class="product-picture" alt="product-2"></a></li>
+                <li><a href="#"><img src="img/product-2-sm.jpg" class="product-picture" alt="product-1"></a></li>
+                <li><a href="#"><img src="img/product-3-sm.jpg" class="product-picture" alt="product-2"></a></li>
             </ul>
-            <ul class="product-1">              
-                    <li><a  href="#"><img src="img/product-4-sm.jpg" class="product-picture" alt="product-3"></a></li>
-                    <li><a  href="#"><img src="img/product-5-sm.jpg" class="product-picture" alt="product-4"></a></li>
+            <ul class="product-1">
+                <li><a href="#"><img src="img/product-4-sm.jpg" class="product-picture" alt="product-3"></a></li>
+                <li><a href="#"><img src="img/product-5-sm.jpg" class="product-picture" alt="product-4"></a></li>
             </ul>
-        </div>    
+        </div>
+        <div class="mobile">
+            <p class="mobile-title">mobile app</p>
+            <h1>Find. Follow.<br>Favorite.</h1>
+            <p class="mobile-text">Save your favorites and share your style.</p>
+            <a href="#" id="app-store"><img src="img/app-store.png" alt="Apple"></a>
+            <a href="#" id="google-play"><img src="img/google-play.png" alt="Google"></a>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="footer">
+        <div class="footer-up">
+            <div class="footer-up_left">
+                <h2>Contact Us</h2>
+                <p>132A Bridge Road Richmond VIC Australia.<br><br>
+                    Talk to us on 1300 132info@interior.com</p>
+            </div>
+            <div class="footer-up_center">
+                <h2>Useful Information</h2>
+                <div class="footer-up_center_left">
+                    <a href="#">Sales terms</a><br>
+                    <a href="#">Customer care</a><br>
+                    <a href="#">Delivery</a>
+                </div>
+                <div class="footer-up_center_right">
+                    <a href="#">Architect accounts</a><br>
+                    <a href="#">Careers</a><br>
+                    <a href="#">Exchanges & returns</a>
+                </div>
+            </div>
+            <div class="footer-up_right">
+                <h2>Let’s Stay in Touch!</h2>
+                <p>Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                <form action="#">
+                    <input class="email" type="email" placeholder="your email address">
+                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                </form>
+            </div>
+        </div>
+        <div class="footer-down">
+            <p>© Copyright - INTERIOR 2016. All Rights Reserved.</p>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </div>
+            <p>Terms & Conditions / Privacy policy & Cookies</p>
+        </div>
     </div>
 </body>
 
