@@ -178,7 +178,7 @@ main-1 {
     text-decoration: none;
     margin-right: 18px;
     margin-left: 7px;
-    
+
 }
 
 .explore {
@@ -210,30 +210,80 @@ main-1 {
     border: none;
 }
 
-.product {
+.main-1-product {
     margin-top: 50px;
     margin-bottom: 120px;
     display: flex;
     justify-content: space-between;
 }
-
-.product li {
-    list-style-type: none;
-}
-
-.product-picture {
+/* Эксперимент с ховером */
+.product-1 {
+    background-image: url(img/product-1.jpg);
     width: 270px;
     height: 270px;
 }
 
-.product-picture:hover {
-    outline: 1px solid #d5d1d0;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+.product-2 {
+    background-image: url(img/product-2.jpg);
+    width: 270px;
+    height: 270px;
 }
 
-.product-picture:active {
-    outline: none;
-    box-shadow: none;
+.product-3 {
+    background-image: url(img/product-3.jpg);
+    width: 270px;
+    height: 270px;
+}
+
+.product-4 {
+    background-image: url(img/product-4.jpg);
+    width: 270px;
+    height: 270px;
+}
+
+.hover-link {
+    width: 270px;
+    height: 270px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    background-image: url(img/back-square.svg);
+    opacity: 0;
+}
+
+.hover-link:hover {
+    opacity: 0.8;
+}
+
+.button_2 img[alt="arrow"] {
+    margin-left: -32px;
+    margin-bottom: 5px;
+}
+
+.button_2 {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_2 img[alt="circle"]:hover {
+    background-color: #ccc;
+}
+
+.hover-link h2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+}
+
+.hover-link p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 23px;
 }
 
 .exclusive-1 {
@@ -249,16 +299,6 @@ main-1 {
     height: 683px;
     background-image: url(img/promo-img.jpg);
     overflow: hidden;
-}
-
-.exclusive-3 {
-    width: 570px;
-    height: 570px;
-    background-image: url(img/product-1-lg.jpg);
-    overflow: hidden;
-    float: left;
-    margin-right: 30px;
-    margin-left: 98px;
 }
 
 
@@ -369,15 +409,24 @@ main-1 {
     margin-top: 120px;
 }
 
-.product-1 {
+.exclusive-3 {
+    width: 570px;
+    height: 570px;
+    background-image: url(img/product-1-lg.jpg);
+    margin-right: 30px;
+    margin-left: 98px;
+    float: left;
+}
+
+.product-sm {
     display: flex;
     justify-content: space-between;
     margin-right: 98px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;    
 }
 
-.product-1 li {
-    list-style-type: none;
+.product-picture:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
 }
 
 .mobile {
